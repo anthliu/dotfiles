@@ -1,4 +1,6 @@
-Credit: https://news.ycombinator.com/item?id=11070797
+Thanks to: 
+* https://news.ycombinator.com/item?id=11070797
+* https://github.com/bookercodes/dotfiles
 
 ```
 git init --bare $HOME/.myconf
