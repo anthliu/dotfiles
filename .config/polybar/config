@@ -202,7 +202,7 @@ format-connected-underline = #9f78e1
 format-disconnected-underline = ${self.format-connected-underline}
 
 label-connected = %essid%
-label-disconnected = disconnected
+label-disconnected = wlan 
 label-disconnected-foreground = ${colors.foreground-alt}
 
 ramp-signal-0 = 
@@ -223,7 +223,7 @@ format-connected-foreground-foreground = ${colors.foreground-alt}
 label-connected = %local_ip%
 
 format-disconnected-underline = ${self.format-connected-underline}
-label-disconnected = disconnected
+label-disconnected = eth 
 label-disconnected-foreground = ${colors.foreground-alt}
 
 [module/date]
