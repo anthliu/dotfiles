@@ -156,7 +156,7 @@ bindsym $mod+r mode "resize"
 
 exec --no-startup-id setxkbmap -option ctrl:swapcaps
 exec --no-startup-id redshift
-exec_always --no-startup-id compton -f
+#exec_always --no-startup-id compton -f
 
 set $bg-color            #2f343f
 set $inactive-bg-color   #2f343f
