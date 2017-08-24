@@ -154,6 +154,8 @@ bindsym $mod+r mode "resize"
 ####
 ####
 
+hide_edge_borders smart
+
 exec --no-startup-id setxkbmap -option ctrl:swapcaps
 exec --no-startup-id redshift
 #exec_always --no-startup-id compton -f

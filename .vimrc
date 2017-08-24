@@ -19,7 +19,6 @@ set laststatus=2
 set showcmd
 set cmdheight=2
 set ruler
-set statusline=%f "tail of the filename
 
 " == basic ==
 
