@@ -1,3 +1,5 @@
+PATH=/opt/ghc/bin:$PATH
+
 COWS="apt gnu duck www moose"
 fortune | cowsay -f $(echo "$COWS" | sed 's/ /\n/g' | shuf -n1)
 

@@ -202,7 +202,7 @@ format-connected-underline = #9f78e1
 format-disconnected-underline = ${self.format-connected-underline}
 
 label-connected = %essid%
-label-disconnected = wlan 
+label-disconnected =  wlan
 label-disconnected-foreground = ${colors.foreground-alt}
 
 ramp-signal-0 = 
@@ -223,7 +223,7 @@ format-connected-foreground-foreground = ${colors.foreground-alt}
 label-connected = %local_ip%
 
 format-disconnected-underline = ${self.format-connected-underline}
-label-disconnected = eth 
+label-disconnected =  eth
 label-disconnected-foreground = ${colors.foreground-alt}
 
 [module/date]
@@ -288,13 +288,17 @@ format-full-prefix-foreground = ${colors.foreground-alt}
 format-full-underline = ${self.format-charging-underline}
 
 ramp-capacity-0 = 
-ramp-capacity-1 = 
-ramp-capacity-2 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
 ramp-capacity-foreground = ${colors.foreground-alt}
 
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-3 = 
+animation-charging-4 = 
 animation-charging-foreground = ${colors.foreground-alt}
 animation-charging-framerate = 750
 
