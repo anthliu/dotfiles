@@ -31,7 +31,7 @@ set showmode
 " set tw=80
 set smartcase
 set smarttab
-set smartindent
+" set smartindent
 set autoindent
 set softtabstop=4
 set shiftwidth=4
