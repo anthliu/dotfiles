@@ -10,6 +10,10 @@ set undodir=~/.vim/undo_files//
 
 " custom
 
+" for make messages
+nnoremap <leader>m :silent make\|redraw!\|cc<CR>
+set shortmess=a
+
 set ignorecase
 set confirm
 set visualbell

@@ -1,4 +1,7 @@
 PATH=/opt/ghc/bin:$PATH
+# added by Anaconda3 4.4.0 installer
+export PATH="/home/anthony/anaconda3/bin:$PATH"
+export PATH="/home/anthony/.local/bin:$PATH"
 
 COWS="apt gnu duck www moose"
 fortune | cowsay -f $(echo "$COWS" | sed 's/ /\n/g' | shuf -n1)
@@ -123,3 +126,4 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
