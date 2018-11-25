@@ -1,3 +1,5 @@
+" syntax mapping
+autocmd BufNewFile,BufRead *.tex set syntax=context
 " Mappings
 map Y y$
 imap fd <Esc>
