@@ -6,6 +6,18 @@ imap fd <Esc>
 
 " Backup
 
+if !isdirectory($HOME . "/.vim")
+    call mkdir($HOME . "/.vim", "p")
+endi
+if !isdirectory($HOME . "/.vim/backup_files")
+    call mkdir($HOME . "/.vim/backup_files", "p")
+endi
+if !isdirectory($HOME . "/.vim/swap_files")
+    call mkdir($HOME . "/.vim/swap_files", "p")
+endi
+if !isdirectory($HOME . "/.vim/undo_files")
+    call mkdir($HOME . "/.vim/undo_files", "p")
+endi
 set backupdir=~/.vim/backup_files//
 set directory=~/.vim/swap_files//
 set undodir=~/.vim/undo_files//
