@@ -2,9 +2,6 @@
 export PATH="/home/anthony/anaconda3/bin:$PATH"
 export PATH="/home/anthony/.local/bin:$PATH"
 
-COWS="apt gnu duck www moose"
-fortune | cowsay -f $(echo "$COWS" | sed 's/ /\n/g' | shuf -n1)
-
 export GPGKEY="6FCA2CA9363FD6C2"
 
 alias config='/usr/bin/git --git-dir=$HOME/.myconf/ --work-tree=$HOME'
