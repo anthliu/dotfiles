@@ -23,6 +23,7 @@ set directory=~/.vim/swap_files//
 set undodir=~/.vim/undo_files//
 
 " custom
+set relativenumber
 
 " for make messages
 nnoremap <leader>m :silent make\|redraw!\|cc<CR>
@@ -42,6 +43,7 @@ set ruler
 
 syntax on
 filetype plugin indent on
+let g:python_recommended_style = 0
 
 set nocompatible
 set number
@@ -51,8 +53,8 @@ set smartcase
 set smarttab
 " set smartindent
 set autoindent
-set softtabstop=4
-set shiftwidth=4
+set softtabstop=2
+set shiftwidth=2
 set expandtab
 set incsearch
 "set mouse=a
